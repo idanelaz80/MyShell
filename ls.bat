@@ -1,2 +1,2 @@
 @echo off
-python ls.py %1
+python "%~dp0ls.py" "%~1"

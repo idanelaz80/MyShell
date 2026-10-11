@@ -1,2 +1,2 @@
 @echo off
-python grep.py %1 %2
+python "%~dp0grep.py" "%~1" "%~2"
